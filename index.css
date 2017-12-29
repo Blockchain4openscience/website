@@ -48,6 +48,21 @@ body{
 	margin:0;
 }
 
+.teamimages {
+    display: inline-block;
+}
+
+.head {
+    max-width: 200px;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.head img {
+    max-width: 200px;
+    border-radius: 100px;
+}
+
 .section{
 	text-align:center;
 }

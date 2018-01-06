@@ -49,18 +49,38 @@ body{
 }
 
 .teamimages {
-    display: inline-block;
+	max-width: 1000px;
+	margin: 0 auto;
 }
 
-.head {
-    max-width: 200px;
-    display: inline-block;
-    margin: 0 20px;
+.row{
+	display: table;
 }
 
-.head img {
-    max-width: 200px;
-    border-radius: 100px;
+.person {
+	display: table-cell;
+    width: 240px;
+    padding: 20px;
+}
+
+.person img {
+    max-width: 100px;
+    border-radius: 50px;
+}
+
+.name{
+	font-weight: bold;
+	font-size: medium;
+}
+
+.legend{
+	max-width: 200px;
+	font-size: small;
+}
+
+.nets img{
+	max-width: 24px;
+	border-radius: 12px;
 }
 
 .section{

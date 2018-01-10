@@ -83,6 +83,15 @@ body{
 	border-radius: 12px;
 }
 
+#sample-net img{
+	width: 50px;
+	margin-top: 20px;
+}
+
+#gsites{
+	width: 200px;
+}
+
 .section{
 	text-align:center;
 }

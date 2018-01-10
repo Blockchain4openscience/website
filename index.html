@@ -11,8 +11,8 @@
     <script type="text/javascript">
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
-				sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
-				anchors: ['home', 'why', 'using', 'events', 'about'],
+                sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+				anchors: ['home', 'why', 'using', 'collaborate', 'events', 'about'],
 				menu: '#menu',
 				scrollingSpeed: 1000
 			});
@@ -23,20 +23,22 @@
 <body>
 
     <ul id="menu">
-        <li data-menuanchor="firstPage"><a href="#firstPage">Home</a></li>
-        <li data-menuanchor="secondPage"><a href="#secondPage">Why Blockchain?</a></li>
-        <li data-menuanchor="thirdPage"><a href="#thirdPage">Using Blockchain</a></li>
-        <li data-menuanchor="fourthPage"><a href="#fourthPage">Events</a></li>
-        <li data-menuanchor="fifthPage"><a href="#fifthPage">About Us</a></li>
+        <li data-menuanchor="home"><a href="#home">Home</a></li>
+        <li data-menuanchor="why"><a href="#why">Why Blockchain?</a></li>
+        <li data-menuanchor="using"><a href="#using">Using Blockchain</a></li>
+        <li data-menuanchor="collaborate"><a href="#collaborate">Collaborate</a></li>
+        <li data-menuanchor="events"><a href="#events">Events</a></li>
+        <li data-menuanchor="about"><a href="#about">About Us</a></li>
     </ul>
 
     <div id="fullpage">
         <div class="section " id="section0">
             <h1>What is blockchain4openscience.com?</h1>
+            <p>Blockchain is a top technology of the future that can be defined as a peer-to-peer infrastructure where nodes coordinate the processing of transactions while the history of transactions is kept in blocks. Blockchain eliminates the weaknesses of the trust-based model by solving the double-spending problem in a peer-to-peer network and allowing direct online data transmission. Blockchain increases integrity and availability, removes single points of failure as data is stored across multiple nodes, and keeps the information up-to-date.</p>
         </div>
         <div class="section " id="section1">
             <h1>Why blockchain4openscience.com</h1>
-            <p>Data-driven discovery, a.k.a knowledge discovery, in the biomedical domain has shifted from cross-referencing databases to issues ranging from the reconstruction of maps for protein-protein interaction to the discovery of hidden connections from information embedded in the literature. It requires an intelligent layer upon which knowledge discovery mechanisms make use of structured and well-described data. Data per se is useful if it interoperates with other datasets, thus enhancing our capacity to relate datasets in order to answer biomedical questions. Being able to associate and discover is one aspect; there is also the need to conduct experiments, support collaboration and facilitate experimental reproducibility. Recent efforts in translational research and open science illustrate such necessities.</p>
+            <p>Open science is a new movement in science that promotes principles of open access to research data, publications, and scientific collaboration. Open science promises to increase transparency and quality of research, provide reproducibility by reusing scientific datasets and increasing trust in the scientific collaboration. Blockchain fits the mindset of open science and can help to fulfill open science principles: transparency and availability of blockchain makes scientific outputs open & transparent; disintermediation removes subjectivity from scientific reviews; integrity and possibility to secure transactions in the competing environment increases trust in scientific results; smart contracts allows to manage access to scientific outputs; immutability represents precise relationships between the works with such features as richness, time-based relationships, and logical precursors.</p>
         </div>
         <div class="section" id="section2">
             <div class="slide">
@@ -44,7 +46,6 @@
                     <h1>How are we using blockchain?</h1>
                     <img src="examples/imgs/slider.png" alt="slider" />
                 </div>
-
             </div>
             <div class="slide">
                 <img src="examples/imgs/1.png" alt="simple" />
@@ -65,10 +66,33 @@
         <div class="section" id="section3">
             <div class="slide">
                 <div class="intro">
-                    <h1>What have done so far</h1>
+                    <h1>How to collaborate?</h1>
                     <img src="examples/imgs/slider.png" alt="slider" />
                 </div>
-
+            </div>
+            <div class="slide" id="sample-net">
+                <h1>Sample Networks</h1>
+                <p>Well-defined business network representations are central when developing applications in hyperledger composer. In simple terms, this is where we define the assets, transactions over assets and, relations across participants and merchants participating in the market; this is where data and smart contracts are defined. Initially, we are modifying existing business networks; by adapting these to open science use cases. The use cases grow in complexity as they integrate and interoperate with each other; resembling thus the behaviour of open science data and applications.  This is an open initiative, everyone is welcome to participate.</p>
+                <a target="_blank" href="https://github.com/Blockchain4openscience/sample-networks"><img src="examples/imgs/github.svg"></a>
+                <a target="_blank" href="mailto:alexgarciac@gmail.com"><img src="examples/imgs/email.svg"></a>
+            </div>
+            <div class="slide">
+                <img src="examples/imgs/2.png" alt="simple" />
+                <h1>Use Case 2</h1>
+                <p>Data-driven discovery, a.k.a knowledge discovery, in the biomedical domain has shifted from cross-referencing databases to issues ranging from the reconstruction of maps for protein-protein interaction to the discovery of hidden connections from information embedded in the literature. It requires an intelligent layer upon which knowledge discovery mechanisms make use of structured and well-described data. Data per se is useful if it interoperates with other datasets, thus enhancing our capacity to relate datasets in order to answer biomedical questions. Being able to associate and discover is one aspect; there is also the need to conduct experiments, support collaboration and facilitate experimental reproducibility. Recent efforts in translational research and open science illustrate such necessities.   </p>
+            </div>
+            <div class="slide">
+                <img src="examples/imgs/3.png" alt="simple" />
+                <h1>Use Case 3</h1>
+                <p>Data-driven discovery, a.k.a knowledge discovery, in the biomedical domain has shifted from cross-referencing databases to issues ranging from the reconstruction of maps for protein-protein interaction to the discovery of hidden connections from information embedded in the literature. It requires an intelligent layer upon which knowledge discovery mechanisms make use of structured and well-described data. Data per se is useful if it interoperates with other datasets, thus enhancing our capacity to relate datasets in order to answer biomedical questions. Being able to associate and discover is one aspect; there is also the need to conduct experiments, support collaboration and facilitate experimental reproducibility. Recent efforts in translational research and open science illustrate such necessities.   </p>
+            </div>
+        </div>
+        <div class="section" id="section4">
+            <div class="slide">
+                <div class="intro">
+                    <h1>Where is the ledger for science? </h1>
+                    <a href="https://sites.google.com/site/force11blockchain/"><img id="gsites" src="examples/imgs/gsites.png"></a>
+                </div>
             </div>
             <div class="slide">
                 <h1>Blockchain at FORCE11</h1>
@@ -87,7 +111,7 @@
                 <p>Data-driven discovery, a.k.a knowledge discovery, in the biomedical domain has shifted from cross-referencing databases to issues ranging from the reconstruction of maps for protein-protein interaction to the discovery of hidden connections from information embedded in the literature. It requires an intelligent layer upon which knowledge discovery mechanisms make use of structured and well-described data. .  </p>
             </div>
         </div>
-        <div class="section " id="section4">
+        <div class="section " id="section5">
             <h1>Our team</h1>
             <div class="teamimages">
                 <div class="row">
@@ -134,8 +158,6 @@
                             <a target="_blank" href="https://blogs.tib.eu/wp/tib/author/lambert-heller/"><img src="examples/imgs/www.svg"></a>
                         </div>
                     </div>
-                </div>
-                <div class="row">
                     <div class="person">
                         <img src="examples/imgs/labazova.png"/>
                         <div class="legend">
@@ -147,6 +169,8 @@
                             <a target="_blank" href="https://www.linkedin.com/in/olga-labazova-8a08b7a5/"><img src="examples/imgs/linkedin.svg"></a>
                         </div>
                     </div>
+                </div>
+                <div class="row">
                     <div class="person">
                         <img src="examples/imgs/antezana.jpeg"/>
                         <div class="legend">
@@ -179,6 +203,16 @@
                         </div>
                         <div class="nets">
                             <a target="_blank" href="https://github.com/ccastroiragorri"><img src="examples/imgs/github.svg"></a>
+                        </div>
+                    </div>
+                    <div class="person">
+                        <img src="examples/imgs/rodriguez.jpeg"/>
+                        <div class="legend">
+                            <span class="name">Brayan Rodríguez</span><br>
+                        </div>
+                        <div class="nets">
+                            <a target="_blank" href="https://www.github.com/brayanrodbajo"><img src="examples/imgs/github.svg"></a>
+                            <a target="_blank" href="https://www.linkedin.com/in/brayanrodbajo"><img src="examples/imgs/linkedin.svg"></a>
                         </div>
                     </div>
                 </div>

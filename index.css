@@ -83,19 +83,18 @@ body{
 	border-radius: 12px;
 }
 
-#sample-net img{
+.icon{
 	width: 50px;
 	margin-top: 20px;
 }
 
-#gsites{
-	width: 200px;
+#gsitesimg{
+	height: 150px;
 }
 
 .section{
 	text-align:center;
 }
-
 
 .section p{
     max-width: 900px;
